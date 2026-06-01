@@ -1,0 +1,17 @@
+.github/workflows/build.yml
+.gitignore
+README_AR.md
+app/__init__.py
+app/config.py
+app/data/database.py
+app/main.py
+app/services/excel_importer.py
+app/services/txt_exporter.py
+app/services/validator.py
+app/utils.py
+build_local.bat
+docs/CLIENT_DELIVERY_NOTE_AR.txt
+requirements.txt
+run.py
+samples/client_bank_result_sample.txt
+samples/client_wage_details_sample.xlsx
