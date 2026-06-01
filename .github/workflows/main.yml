@@ -23,7 +23,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --windowed --name "Rajhi-Wages" run.py
+          pyinstaller --onefile --windowed --name "Rajhi-Wages" --collect-all numpy --collect-all pandas --collect-all openpyxl run.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
